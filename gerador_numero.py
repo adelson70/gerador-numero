@@ -3,7 +3,10 @@ from tkinter.font import Font
 from tkinter import messagebox
 from random import choice
 
+# lista onde será armazenado os numeros usados pelo sorteador
 numeros_usados = []
+
+# lista onde tem os números que podem ser escolhidos pelo sorteador
 numeros = [n for n in range(101)]
 
 # Função que ira gerar os números e atualizar a label onde ficara o numero
